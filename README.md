@@ -2,14 +2,14 @@
 This collect information of Episodes; characters involved, their location; and user's comments on individual episodes.
 
 There are 8 endpoints altogether <br>
-http://127.0.0.1:8000/api/characters/ endpoint have GET, POST requests for characters,<br>
-http://127.0.0.1:8000/api/episodes/ endpoint have GET, POST requests for episodes,<br>
-http://127.0.0.1:8000/api/comments/ endpoint have GET, POST requests for comments,<br>
-http://127.0.0.1:8000/api/locations/ endpoint have GET requests for locations,<br>
-http://127.0.0.1:8000/api/episodes/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual episode,<br>
-http://127.0.0.1:8000/api/characters/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual character,<br>
-http://127.0.0.1:8000/api/comments/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual comment, <br>
-http://127.0.0.1:8000/api/locations/{id} endpoint have GET, PUT, PATCH requests for individual location, <br>
+https://episode09.herokuapp.com/api/characters/ endpoint have GET, POST requests for characters,<br>
+https://episode09.herokuapp.com/api/episodes/ endpoint have GET, POST requests for episodes,<br>
+https://episode09.herokuapp.com/api/comments/ endpoint have GET, POST requests for comments,<br>
+https://episode09.herokuapp.com/api/locations/ endpoint have GET requests for locations,<br>
+https://episode09.herokuapp.com/api/episodes/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual episode,<br>
+https://episode09.herokuapp.com/api/characters/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual character,<br>
+https://episode09.herokuapp.com/api/comments/{id} endpoint have GET, PUT, PATCH, DELETE requests for individual comment, <br>
+https://episode09.herokuapp.com/api/locations/{id} endpoint have GET, PUT, PATCH requests for individual location, <br>
 
 On deleting a character, the location attached is also deleted. On deleting an episode, all comments attached are deleted.
 
